@@ -7,7 +7,7 @@ nav {
   top: 0;
 }
 
-nav .title {
+.title {
   font-size: 2.5rem;
   margin: 1rem;
   font-weight: bold;
@@ -98,5 +98,21 @@ nav .menu span {
 
   nav ul li a {
     margin: 0.2rem 0.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    padding-bottom: 11px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+
+  nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
   }
 }
