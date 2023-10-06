@@ -28,7 +28,7 @@ function NewMeetupPage() {
       <Head>
         <title>Add your amazing place!</title>
       </Head>
-      <NewMeetupForm onAddMeetup={addMeetupHandler} />;
+      <NewMeetupForm onAddMeetup={addMeetupHandler} />
     </Fragment>
   );
 }

@@ -29,10 +29,10 @@ function MainNavigation() {
           <Link href="/new-meetup">Add New Place</Link>
         </li>
         <li>
-          <Link href="/favorites">
+          {/* <Link href="/favorites">
             Favorite
             <span className="badge">{favoritesCtx.totalFavorites}</span>
-          </Link>
+          </Link> */}
         </li>
       </ul>
     </nav>
