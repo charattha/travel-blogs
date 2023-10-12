@@ -16,7 +16,7 @@ function MeetUpDetailPage(props) {
 //fallback path
 export async function getStaticPaths() {
   const client = await MongoClient.connect(
-    "mongodb+srv://sharattha:m0g8E0IgynhZvAZx@cluster0.w61zdlj.mongodb.net/meetups?retryWrites=true&w=majority"
+    "mongodb+srv://sharattha:Qx5g0S18hIlZa8z4@cluster0.w61zdlj.mongodb.net/meetups?retryWrites=true&w=majority"
   );
   const db = client.db();
   const meetupsCollection = db.collection("meetups");
@@ -39,7 +39,7 @@ export async function getStaticProps(context) {
 
   //fetch data for a single meetup
   const client = await MongoClient.connect(
-    "mongodb+srv://sharattha:m0g8E0IgynhZvAZx@cluster0.w61zdlj.mongodb.net/meetups?retryWrites=true&w=majority"
+    "mongodb+srv://sharattha:Qx5g0S18hIlZa8z4@cluster0.w61zdlj.mongodb.net/meetups?retryWrites=true&w=majority"
   );
   const db = client.db();
   const meetupsCollection = db.collection("meetups");
